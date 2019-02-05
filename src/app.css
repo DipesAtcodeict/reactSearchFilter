@@ -1,0 +1,47 @@
+*,html {
+    padding:0;
+    margin:0;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(59, 35, 35);
+    height: 8vh;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-weight:bold;
+    font-size: 2rem;
+    color:#7fb8ab;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header input{
+    width: 20%;
+    margin-top:0.5rem;
+    height: 1.3rem;
+    text-align:center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.card_name {
+    border: 4px solid tomato;
+    padding: 1rem;
+    flex-grow: 1;
+    height: 4rem;
+    width: 4rem;
+    margin: 4rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #7fb8ab;
+    color: rgb(59, 35, 35);
+    text-align: center;
+}
